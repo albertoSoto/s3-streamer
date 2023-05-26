@@ -1,4 +1,6 @@
 #  S3 Streamer
+based on reply https://stackoverflow.com/questions/64595112/spring-boot-video-streaming-from-s3-bucket
+
 ## A java based container microservice to read S3 objects via streaming using a Http localhost endpoint.
 This container service run on localhost:9999 (default port) where the S3 objects can be accssed locally via streaming over http protocol.
 #### Endpoint : http://localhost:9999/<bucket_name>/<object_key> or http://s3-streamer:9999/<bucket_name>/<object_key>
